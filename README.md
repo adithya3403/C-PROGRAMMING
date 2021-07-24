@@ -1,2 +1,2 @@
 # C-CODES
-Arrays, structures, pointers andstrings
+Arrays, structures, pointers and strings
