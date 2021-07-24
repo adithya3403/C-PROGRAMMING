@@ -1,3 +1,2 @@
 # C-CODES
-Arrays, structures, pointers and strings
-Lab codes
+Arrays, structures, pointers, strings and lab codes along with examples
