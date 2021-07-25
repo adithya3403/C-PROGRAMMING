@@ -14,3 +14,6 @@ void main()
     f=fact(n);
     printf("Factorial of %d is %d", n, f);
 }
+
+// Enter number : 5
+// Factorial of 5 is 120

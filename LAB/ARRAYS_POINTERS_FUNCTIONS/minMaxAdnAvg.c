@@ -29,4 +29,7 @@ int main()
     printf("Minimum element = %d", min);
 }
 
-
+// Enter size of the array: 4
+// Enter elements in the array: 1 2 5 8
+// Maximum element = 8
+// Minimum element = 1

@@ -14,3 +14,6 @@ int main()
     printf("Factorial is %d", factorial(num));
     return 0;
 }
+
+// Enter number : 6
+// Factorial is 720

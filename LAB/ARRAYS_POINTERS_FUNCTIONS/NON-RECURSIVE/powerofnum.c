@@ -16,3 +16,7 @@ void main()
     int res = power(b, e);
     printf("%d^%d = %d", b, e, res);
 }
+
+// Enter base : 5
+// Enter power : 3
+// 5^3 = 125

@@ -14,3 +14,10 @@ void main()
         printf("\nValue = %d",*(a[i]));
     }
 }
+
+// Address = 6422288
+// Value = 10
+// Address = 6422292
+// Value = 20
+// Address = 6422296
+// Value = 30

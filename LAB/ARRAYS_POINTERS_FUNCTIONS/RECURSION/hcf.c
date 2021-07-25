@@ -17,3 +17,7 @@ int main()
     printf("HCF = %d & LCM = %d\n",hcf(a, b), lcm);
     return 0;
 }
+
+// Enter first number : 14
+// Enter second number : 72
+// HCF = 2 & LCM = 504

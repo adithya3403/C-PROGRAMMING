@@ -38,3 +38,22 @@ void main()
                 printf("\n\n");
         }
 }
+
+// Enter rows and columns of matrix: 2 2
+
+// Enter elements of matrix:
+// Enter element a11: 1
+// Enter element a12: 2
+// Enter element a21: 3
+// Enter element a22: 4
+
+// Entered Matrix:
+// 1 2
+
+// 3 4
+
+
+// Transpose of Matrix:
+// 1 3
+
+// 2 4

@@ -24,3 +24,11 @@ void main()
     printf("variance of all elements = %.2f\n", variance);
     printf("Standard deviation = %.2f\n", std_deviation);
 }
+
+// Enter the value of N 
+// 5
+// Enter 5 real numbers 
+// 1 2 3 5 8
+// Average of all elements = 3.80
+// variance of all elements = 6.16
+// Standard deviation = 2.48

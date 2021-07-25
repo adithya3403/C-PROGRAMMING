@@ -17,3 +17,6 @@ void main() {
     }
     printf("The sum of array elements : %d", sum);
 }
+
+// Enter 10 elements : 1 2 3 4 5 4 3 2 1 5
+// The sum of array elements : 30

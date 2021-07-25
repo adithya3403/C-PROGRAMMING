@@ -18,3 +18,7 @@ int main()
     printf("%d^%d = %d", base, a, result);
     return 0;
 }
+
+// Enter base : 6
+// Enter power : 3
+// 6^3 = 216

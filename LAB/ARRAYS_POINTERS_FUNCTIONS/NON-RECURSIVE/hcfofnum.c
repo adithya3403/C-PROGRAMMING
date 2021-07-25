@@ -21,3 +21,6 @@ void main()
         c=hcf(b, a);
     printf("HCF of %d and %d is %d", a, b, c);
 }
+
+// Enter two numbers : 6 22
+// HCF of 6 and 22 is 2

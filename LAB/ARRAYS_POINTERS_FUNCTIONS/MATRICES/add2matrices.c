@@ -28,3 +28,13 @@ int main()
     }
     return 0;
 }
+
+// Number of rows of matrices to be added : 2
+// Number of columns matrices to be added : 2
+// Elements of first matrix : 
+// 1 2 3 4
+// Elements of second matrix : 
+// 5 6 7 8
+// Sum of entered matrices :
+// 6       8
+// 10      12
