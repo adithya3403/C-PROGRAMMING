@@ -21,3 +21,11 @@ int main()
     insertStr(m,s,pos);
     printf("\nMain string after insertion: %s",m);
 }
+
+//  enter main string for insertion:hello world
+
+// enter sub string:hi
+
+// Enter position to insert substring after how many letters :5
+
+// Main string after insertion: hellohi world

@@ -22,3 +22,9 @@ int main()
     else 
         printf("%s is a palindrome", s);
 }
+
+// Enter a string:madam
+// madam is a palindrome
+
+// Enter a string:hello
+// hello is not a palindrome

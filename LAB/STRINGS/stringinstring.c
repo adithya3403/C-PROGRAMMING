@@ -15,3 +15,9 @@ void main()
     else
         printf("-1");
 }
+
+// Enter the first string: 
+// hello 
+// Enter the string to be searched: 
+// el
+// Second String is found in the First String at 1 position.

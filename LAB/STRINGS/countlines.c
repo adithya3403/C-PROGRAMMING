@@ -17,3 +17,9 @@ void main()
     }
     printf("The number of words in the string are %d", f);
 }
+
+// Enter any string
+
+// hello world
+// The number of characters in the string are 11
+// The number of words in the string are 2

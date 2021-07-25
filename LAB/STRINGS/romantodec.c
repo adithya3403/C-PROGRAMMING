@@ -48,3 +48,7 @@ void main()
     }
     printf("decimal equivalent is %d", k);
 }
+
+// Enter the roman number
+// XXVI
+// decimal equivalent is 26

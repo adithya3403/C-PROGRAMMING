@@ -113,3 +113,6 @@ void main()
     for(j = 0; j < i; j++)
         printf("%c", roman[j]);
 }
+
+// Enter the number: 24
+// Roman number is: XXIV
