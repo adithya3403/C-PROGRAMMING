@@ -56,3 +56,17 @@ void main()
         } 
     } 
 } 
+
+// input
+// Number of rows in first matrix : 2
+// Number of columns in first matrix : 2
+// Elements of first matrix : 
+// 1 2 3 4 
+// Number of rows of second matrix : 2
+// Number of columns of second matrix : 2
+// Elements of second matrix : 
+// 5 6 7 8
+// output
+// After Multiplication, the result is : 
+// 19      22
+// 43      50

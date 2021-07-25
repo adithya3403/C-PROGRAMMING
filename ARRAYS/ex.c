@@ -10,3 +10,6 @@ int main()
     arr[1], arr[2], arr[3]); 
     return 0; 
 } 
+
+// output
+// 5 2 -10 5

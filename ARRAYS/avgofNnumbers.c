@@ -13,3 +13,11 @@ void main()
     average = sum/n; 
     printf("Average = %d", average); 
 } 
+
+// input
+// Enter number of subjects: 3
+// Enter subject marks1: 50
+// Enter subject marks2: 60
+// Enter subject marks3: 70
+// output
+// Average = 60

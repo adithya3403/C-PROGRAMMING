@@ -34,3 +34,15 @@ void main()
         printf("\n"); 
     } 
 } 
+
+// input
+// Number of rows of matrices to be subtracted : 2
+// Number of columns matrices to be subtracted : 2
+// Elements of first matrix : 
+// 1 2 3 4
+// Elements of second matrix : 
+// 5 6 7 8
+// output
+// Difference of entered matrices : 
+// -4      -4
+// -4      -4
