@@ -7,3 +7,5 @@ void main()
     strcat(s1,s2);
     printf("Output string after concatenation: %s", s1);
 }
+
+// Output string after concatenation: HelloWorld

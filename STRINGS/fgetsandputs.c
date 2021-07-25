@@ -7,3 +7,6 @@ void main()
     printf("Name: ");
     puts(name);
 }
+
+// Enter name: ajay
+// Name: ajay

@@ -11,3 +11,6 @@ void main()
     fgets(str, sizeof(str), stdin);
     displayString(str); 
 }
+
+// Enter string: hello
+// String Output: hello

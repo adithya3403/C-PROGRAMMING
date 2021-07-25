@@ -11,3 +11,6 @@ void main()
     printf("strcmp(str1, str3) = %d\n", result);
     // equal
 }
+
+// strcmp(str1, str2) = 1
+// strcmp(str1, str3) = 0

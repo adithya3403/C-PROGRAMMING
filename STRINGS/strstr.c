@@ -16,3 +16,6 @@ void main ()
         printf("string not found\n" );
     } 
 }
+
+// string found
+// First occurrence of string "test" in "This is a test string for testing" is "test string for testing"
