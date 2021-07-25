@@ -18,3 +18,10 @@ void main( )
     printf("\n");
     printf( " \n The sum of two complex numbers is: %d + %di",Result_C.real,Result_C.imag);
 }
+
+
+// input
+//  Enter the real and imaginary parts of the first complex number:   2 2
+//  Enter the real and imaginary parts of the second complex number:   2 2
+// output
+//  The sum of two complex numbers is: 4 + 4i 

@@ -37,3 +37,39 @@ void main( )
         printf("\n\t   Date of birth = %s", stud[i].DOB);
     }
 }
+
+//  input
+
+//  Enter the number of students: 2
+
+//  Enter 1 student details:
+//  Enter the roll number: 1
+
+//  Enter Name: ajay
+
+//  Enter the fees: 2000
+
+//  Enter the date of birth[DD-MM-YYYY]: 03-05-2002
+
+//  Enter 2 student details:
+//  Enter the roll number: 2
+
+//  Enter Name: vijay
+
+//  Enter the fees: 5000
+
+//  Enter the date of birth[DD-MM-YYYY]: 05-03-2004
+//  output
+//  ********** STORED STUDENT DETAILS **********    
+
+//  Details of 1 student:
+//            Roll Number = 1
+//            Name = ajay
+//            FEES = 2000
+//            Date of birth = 03-05-2002
+
+//  Details of 2 student:
+//            Roll Number = 2
+//            Name = vijay
+//            FEES = 5000
+//            Date of birth = 05-03-2004

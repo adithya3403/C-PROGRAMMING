@@ -25,3 +25,15 @@ int main()
     printf("\n Student date of birth= %s ", stu1.DOB);
     return 0;
 }
+
+// input
+//  Enter the student roll number: 2
+//  Enter student name:  roy
+//  Enter the fees: 2000
+//  Enter the Date of Birth[DD:MM:YYYY]: 03-05-2002
+// output
+// ********** STUDENT DETAILS**********
+//  Student Roll number = 2
+//  Student Name = roy
+//  FEES =   2000.000000
+//  Student date of birth= 03-05-2002
