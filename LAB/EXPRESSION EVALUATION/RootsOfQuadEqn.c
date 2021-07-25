@@ -33,3 +33,8 @@ void main()
         printf("Root1=%f-i%f",x,y);
     }
 }
+
+// ENTER VALUES FOR a,b,c:
+// 1 -4 4
+// THE ROOTS ARE EQUAL & THEY ARE..
+// Root1=2.000000Root2=2.000000

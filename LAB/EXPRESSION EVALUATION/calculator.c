@@ -1,6 +1,5 @@
 // Write a C program, which takes two integer operands and one operator from the user, performs the operation and then prints the result. (Consider the operators +,- ,*, /, % and use Switch Statement).
 #include <stdio.h>
-#include <conio.h>
 void main()
 {
     int a, b, c;
@@ -38,5 +37,10 @@ void main()
         default: printf("Invalid operator");
         break;
     }
-    getch();
 }
+
+// Enter your operator(+, -, /, *, )
+// *
+// Enter the values of a and b
+// 5 8
+// multiplication of two numbers is 40

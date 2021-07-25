@@ -18,3 +18,7 @@ void main()
             printf("\t%d",m);
     }
 }
+
+// Enter a number:16
+
+// The Prime numbers between 1 to n:       2       3     57       11      13

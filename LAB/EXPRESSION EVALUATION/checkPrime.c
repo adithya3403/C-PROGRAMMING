@@ -18,3 +18,6 @@ void main()
   else
     printf("%d is not a prime number",n);
 }
+
+// Enter a number:5
+// 5 is a prime number

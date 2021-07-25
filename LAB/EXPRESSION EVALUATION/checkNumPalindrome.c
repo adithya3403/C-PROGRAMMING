@@ -40,3 +40,13 @@ void main()
     printf("\nEntered number %d is not a palindrome", t);
   }
 }
+
+// Enter any number
+//  156
+// Sum of individual digits of a given number is 12
+
+// Please enter a number to check Palindrome : 564
+
+// Entered number: 564
+// Reversed number: 465
+// Entered number 564 is not a palindrome
