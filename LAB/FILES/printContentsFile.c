@@ -24,3 +24,7 @@ void main()
     }
     fclose(fptr);
 }
+
+// Enter the filename to open 
+// sample.txt
+// h

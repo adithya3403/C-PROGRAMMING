@@ -19,3 +19,7 @@ void main()
   else
     printf("Minimum number is c = %d",c);
 }
+
+// Enter 3 numbers5 6 19
+// Maximum number is c = 19
+// Minimum number is a = 5

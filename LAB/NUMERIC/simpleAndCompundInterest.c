@@ -14,10 +14,8 @@ void main()
   printf("\nCompound interest = %.3f",ci);
 }
 
+// Please enter principle,time and rate of interest  
+// 500 12 1
 
-// input
-//500 12 1
-
-// output
-//60
-//63.413
+// Simple interest = 60.000
+// Compound interest = 63.413

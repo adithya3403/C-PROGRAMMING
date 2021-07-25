@@ -17,3 +17,7 @@ void main()
 	else if(per <= 70 && per>60)
 		printf("First Class");
 }
+
+// Enter five subjects marks: 90 80 85 95 100
+// Percentage = 90.00
+// Distinction

@@ -18,3 +18,6 @@ int binary_conversion(int num)
   else
     return (num % 2) + 10 * binary_conversion(num / 2);
 }
+
+// Enter a decimal number: 45
+// The binary equivalent of 45 is 101101

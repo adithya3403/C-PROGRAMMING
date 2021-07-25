@@ -13,3 +13,11 @@ void main()
         printf("\n");
     }
 }
+
+// Enter number of rows: 6
+// * 
+// * *
+// * * *
+// * * * *
+// * * * * *
+// * * * * * *
