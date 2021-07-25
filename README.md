@@ -1,7 +1,7 @@
 # C-CODES
 This repo contains C programs
 
-Topics included : 
+Topics included are : 
 
     ARRAYS
 
