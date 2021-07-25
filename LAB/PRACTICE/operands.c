@@ -17,3 +17,16 @@ void main( )
   printf("\nthe bitwise OR operator result is %d",a|b);
   printf("\nthe bitwise NOT operator result is %d",a^b);
 }
+
+
+//         enter the values of a and b
+// 10 25
+
+// the arithmetic operators result is 35 -15 250 0        
+// the relational operators result is 0 1 0 1
+// the logical operators result is 1 1 1 1
+// the increment operator result is 11 11 26 26
+// the decrement operator result is 11 11 26 26
+// the bitwise AND operator result is 8
+// the bitwise OR operator result is 27
+// the bitwise NOT operator result is 19

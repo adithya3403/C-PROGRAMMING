@@ -33,3 +33,18 @@ void main()
         printf("%s\t\t%s\n", tname[i], name[i]);
     printf("------------------------------------------\n");
 }
+
+// Enter the value of n 
+// 3
+// Enter 3 names 
+// sujay
+// vijay
+// ajay
+
+// ----------------------------------------
+// Input Names     Sorted names
+// ------------------------------------------
+// sujay           ajay
+// vijay           sujay
+// ajay            vijay
+// ------------------------------------------

@@ -11,3 +11,7 @@ void main()
   mean=sum/count;
   printf(" the value of mean is : %d\n", mean);
 }
+
+// enter the value of sum and count
+// 15 5
+//  the value of mean is : 3

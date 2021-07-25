@@ -31,3 +31,9 @@ void main()
     else
         printf("Element %d Found at Position %d\n", element, position + 1);
 }
+
+// Enter the Limit of Elements in Array:   5
+// Enter 5 Elements in Array: 
+// 1 2 3 4 8
+// Enter Element To Search:        8
+// Element 8 Found at Position 5

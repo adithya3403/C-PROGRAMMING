@@ -23,3 +23,10 @@ void main()
     for (c = 0; c <= n - 1; c++)
         printf("%d ", array[c]);
 }
+
+// Enter number of elements
+// 6
+// Enter 6 integers
+// 1 2 5 3 4 6
+// Sorted list in ascending order:
+// 1 2 3 4 5 6
