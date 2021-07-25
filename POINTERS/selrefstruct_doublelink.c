@@ -38,3 +38,7 @@ void main() {
     printf("%d\t", ob3.prev_link->data);
     printf("%d", ob3.data);
 }
+
+// 10      20      30
+// 10      20      30
+// 10      20      30

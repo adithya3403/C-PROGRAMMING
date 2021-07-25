@@ -7,3 +7,5 @@ int main()
     printf("%d",day);
     return 0;
 }
+
+// 2

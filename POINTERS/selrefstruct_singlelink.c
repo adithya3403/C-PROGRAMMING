@@ -24,3 +24,6 @@ struct node ob1; // Node1
     printf("\n%d", ob1.link->data2);
     return 0;
 }
+
+// 30
+// 40

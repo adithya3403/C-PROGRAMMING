@@ -12,3 +12,10 @@ void main()
     //OR
     printf("\n the value of a=%d",*(&a));
 }
+
+//  the value of a=10
+//  the address of a=6422300
+//  the value of pointer,ptr=6422300
+//  the address of pointer ptr=6422296
+//  the value of the pointer pointing=10
+//  the value of a=10
