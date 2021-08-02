@@ -1,16 +1,23 @@
 #include <stdio.h>
-int main()
+int sum(int n) 
 {
-    int num, count, total=0;
-    printf("enter a num : ");
-    scanf("%d", &num);
-    for (count = 1; count <= num; count++)
+    if (n==0) 
     {
-        total+=count;
+        return 0;
+    } 
+    else 
+    {
+        return n+sum(n-1);
     }
-    printf("total = %d", total);
-    return 0;
-    
-    
+}
+void main() 
+{
+    int n;
+    printf("Enter a positive integer:\n");
+    scanf("%d", &n);
+    printf("sum = %d", sum(n));
 }
 
+// Enter a positive integer:
+// 15
+// sum = 120
