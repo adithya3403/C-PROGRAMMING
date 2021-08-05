@@ -13,5 +13,6 @@ Topics included are :
     RECURSION
     PYRAMIDS
     SORTING
+    SEARCHING
 
 Input and output are given in comments
