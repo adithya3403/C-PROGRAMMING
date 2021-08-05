@@ -13,7 +13,7 @@ int b(int arr[], int l, int r, int x) {
     }
     return -1;
 }
-void main() {
+void main() { 
     int n;
     printf("Enter number of elements : ");
     scanf("%d", &n);
