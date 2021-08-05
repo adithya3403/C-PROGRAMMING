@@ -2,11 +2,13 @@
 #include <stdio.h>
 int b(int arr[], int l, int r, int x) {
     if (r >= l) {
-        int m = l + (r - l) / 2;
-        if (arr[m] == x)
+        int m = (r + l) / 2;
+        if (arr[m] == x) {
             return m;
-        if (arr[m] > x)
+        }
+        else if (arr[m] > x) {
             return b(arr, l, m - 1, x);
+        }
         return b(arr, m + 1, r, x);
     }
     return -1;
