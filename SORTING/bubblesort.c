@@ -6,6 +6,12 @@ void swap(int *x, int *y) {
     *x = *y;
     *y = z;
 }
+void input(int arr[], int n) {
+    printf("Enter elements : ");
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+}
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n-1; i++) {
         for (int j = 0; j < n-i-1; j++) {
@@ -16,6 +22,7 @@ void bubbleSort(int arr[], int n) {
     }  
 }
 void printArray(int arr[], int size) {
+    printf("Sorted array is : ");
     for (int i=0; i < size; i++) {
         printf("%d ", arr[i]);
     }
@@ -26,11 +33,7 @@ void main() {
     printf("Enter number of elements : ");
     scanf("%d", &n);
     int arr[n];
-    printf("Enter elements : ");
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
+    input(arr, n);
     bubbleSort(arr, n);
-    printf("Sorted array is : ");
     printArray(arr, n);
 }
