@@ -1,13 +1,11 @@
 #include <stdio.h>
-int power(int b, int e)
-{
+int power(int b, int e) {
     int r=1;
     for(e; e > 0; e--)
         r*=b;
     return r;
 }
-void main()
-{
+void main() {
     int b, e;
     printf("Enter base : ");
     scanf("%d", &b);

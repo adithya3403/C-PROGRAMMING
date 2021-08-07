@@ -1,13 +1,12 @@
 #include <stdio.h>
-int fact(int n)
-{
+int fact(int n) {
     int f=1;
-    for(int i = 1 ; i <= n ; i++)
+    for (int i = 1 ; i <= n ; i++) {
         f = f*i;
+    }
     return f;
 }
-void main()
-{
+void main() {
     int n,f;
     printf("Enter number : ");
     scanf("%d", &n);

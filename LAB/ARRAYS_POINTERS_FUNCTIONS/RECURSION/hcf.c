@@ -1,13 +1,13 @@
 #include <stdio.h>
-int hcf(int a, int b)
-{
-    if (b!=0)
+int hcf(int a, int b) {
+    if (b!=0) {
         return hcf(b, a%b);
-    else
+    }
+    else {
         return a;   
+    }
 }
-int main()
-{
+int main() {
     int a, b, lcm;
     printf("Enter first number : ");
     scanf("%d", &a);
@@ -18,6 +18,6 @@ int main()
     return 0;
 }
 
-// Enter first number : 14
-// Enter second number : 72
-// HCF = 2 & LCM = 504
+// Enter first number : 6
+// Enter second number : 22
+// HCF = 2 & LCM = 66

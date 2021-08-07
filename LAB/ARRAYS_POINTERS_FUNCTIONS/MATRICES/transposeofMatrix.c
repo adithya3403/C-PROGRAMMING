@@ -1,59 +1,31 @@
-// Transpose of a matrix with memory dynamically allocated for the new matrix as row and column counts may not be same
 #include <stdio.h>
-void main()
-{
-    int a[10][10], transpose[10][10], r, c, i, j;
-    printf("Enter rows and columns of matrix: ");
-    scanf("%d %d", &r, &c);
-    // Storing elements of the matrix
-    printf("\nEnter elements of matrix:\n");
-    for(i=0; i<r; ++i)
-        for(j=0; j<c; ++j)
-        {
-            printf("Enter element a%d%d: ",i+1, j+1);
+void main() {
+    int a[5][5], b[5][5], m, n;
+    printf("Enter number of rows and columns in matrix : ");
+    scanf("%d %d", &m, &n);
+    printf("Enter entries of matrix : ");
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
             scanf("%d", &a[i][j]);
         }
-    // Displaying the matrix a[][] */
-    printf("\nEntered Matrix: \n");
-    for(i=0; i<r; ++i)
-        for(j=0; j<c; ++j)
-        {
-            printf("%d ", a[i][j]);
-            if (j == c-1)
-                printf("\n\n");
+    }
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            b[j][i]=a[i][j];
         }
-    // Finding the transpose of matrix a
-    for(i=0; i<r; ++i)
-        for(j=0; j<c; ++j)
-        {
-            transpose[j][i] = a[i][j];
+    }
+    printf("Transpose of matrix is :\n");
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            printf("%d ", b[i][j]);
         }
-    // Displaying the transpose of matrix a
-    printf("\nTranspose of Matrix:\n");
-    for(i=0; i<c; ++i)
-        for(j=0; j<r; ++j)
-        {
-            printf("%d ",transpose[i][j]);
-            if(j==r-1)
-                printf("\n\n");
-        }
+        printf("\n");
+    }
 }
 
-// Enter rows and columns of matrix: 2 2
-
-// Enter elements of matrix:
-// Enter element a11: 1
-// Enter element a12: 2
-// Enter element a21: 3
-// Enter element a22: 4
-
-// Entered Matrix:
-// 1 2
-
-// 3 4
-
-
-// Transpose of Matrix:
-// 1 3
-
+// Enter number of rows and columns in matrix : 2 2
+// Enter entries of matrix : 1 2 3 
+// 4
+// Transpose of matrix is :
+// 1 3 
 // 2 4

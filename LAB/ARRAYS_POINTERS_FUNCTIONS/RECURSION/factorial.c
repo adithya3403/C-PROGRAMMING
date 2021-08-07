@@ -1,19 +1,20 @@
+// factorial of number using recursion
 #include <stdio.h>
-unsigned int factorial(unsigned int n)
+int f(int n)
 {
     if (n==0)
         return 1;
     else
-        return n*factorial(n-1);
+        return n*f(n-1);
 }
 int main()
 {
     int num;
     printf("Enter number : ");
     scanf("%d", &num);
-    printf("Factorial is %d", factorial(num));
+    printf("Factorial is %d", f(num));
     return 0;
 }
 
-// Enter number : 6
-// Factorial is 720
+// Enter number : 5
+// Factorial is 120
