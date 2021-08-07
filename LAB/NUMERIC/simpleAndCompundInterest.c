@@ -1,12 +1,11 @@
 // Write the program for the simple, compound interest
 #include<stdio.h>
 #include<math.h>
-void main()
-{
+void main() {
   int p,t;
   float r,si,amount,ci;
   printf("Please enter principle,time and rate of interest");
-  scanf("%d%d%f",&p,&t,&r);
+  scanf("%d %d %f",&p,&t,&r);
   si=p*t*r/100;
   printf("\nSimple interest = %.3f",si);
   amount=p*pow((1 +r/100),t);

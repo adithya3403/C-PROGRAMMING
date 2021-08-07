@@ -3,30 +3,25 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<ctype.h>
-int main()
-{
-    FILE *fp1, *fp2;
+int main() {
+    FILE *p1, *p2;
     char ch;
-    fp1 = fopen("source.txt", "r");
-    if (fp1 == NULL)
-    {
+    p1 = fopen("source.txt", "r");
+    if (p1 == NULL) {
         puts("File does not exist..");
         exit(1);
     }
-    fp2 = fopen("target.txt", "w");
-    if (fp2 == NULL)
-    {
+    p2 = fopen("target.txt", "w");
+    if (p2 == NULL) {
         puts("File does not exist..");
-        fclose(fp1);
+        fclose(p1);
         exit(1);
     }
-    while((ch=fgetc(fp1))!=EOF)
-    {
+    while((ch=fgetc(p1))!=EOF) {
         ch = toupper(ch);
-        fputc(ch,fp2);
+        fputc(ch,p2);
     }
     printf("\nFile successfully copied..");
 }
-
 
 // File successfully copied..
