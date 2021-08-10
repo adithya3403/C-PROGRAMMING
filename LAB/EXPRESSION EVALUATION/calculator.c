@@ -10,26 +10,26 @@ void main() {
     switch(ch) {
         case '+': 
             c = a + b;
-            printf("addition of two numbers is %d", c);
+            printf("Result is %d", c);
             break;
         case '-': 
             c = a - b;
-            printf("substraction of two numbers is %d", c);
+            printf("Result is %d", c);
             break;
         case '*': 
             c = a * b;
-            printf("multiplication of two numbers is %d", c);
+            printf("Result is %d", c);
             break;
         case '/': 
             c = a / b;
-            printf("remainder of two numbers is %d", c);
+            printf("Result is %d", c);
             break;
         case '%': 
             c = a % b;
-            printf("quotient of two numbers is %d", c);
+            printf("Result is %d", c);
             break;
         default: 
-            printf("Invalid operator");
+            printf("An error occured!");
             break;
     }
 }

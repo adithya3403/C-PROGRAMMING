@@ -4,35 +4,35 @@
 void main() {
     int a,b,c,d,x,y;
     float r1,r2;
-    printf("ENTER VALUES FOR a,b,c:\n");
+    printf("Enter coefficients of x^2, x and constant : ");
     scanf("%d %d %d",&a,&b,&c);
     d=b*b-4*a*c;
-    if(d>0) {
-        printf("THE ROOTS ARE REAL & THEY ARE..\n");
+    if (d>0) {
+        printf("Roots are real. They are : \n");
         r1=(-b+sqrt(d))/(2*a);
         r2=(-b-sqrt(d))/(2*a);
-        printf("r1=%f",r1);
-        printf("r2=%f",r2);
+        printf("Root1 = %f\n",r1);
+        printf("Root2 = %f\n",r2);
     }
     else if(d==0)
     {
-        printf("THE ROOTS ARE EQUAL & THEY ARE..\n");
+        printf("Roots are reala nd equal. They are : \n");
         r1=-b/(2*a);
         r2=r1;
-        printf("r1=%f",r1);
-        printf("r2=%f",r2);
+        printf("Root1=%f\n",r1);
+        printf("Root2=%f\n",r2);
     }
     else
     {
-        printf("THE ROOTS ARE IMAGINARY");
+        printf("Roots are not real. They are : \n");
         x=-b/(2*a);
         y= sqrt(d)/(2*a);
-        printf("r1=%f+i%f",x,y);
-        printf("r1=%f-i%f",x,y);
+        printf("Root1 = %f + i%f\n",x,y);
+        printf("Root2 = %f - i%f",x,y);
     }
 }
 
-// ENTER VALUES FOR a,b,c:
-// 1 -4 4
-// THE ROOTS ARE EQUAL & THEY ARE..
-// r1=2.000000r2=2.000000
+// Enter coefficients of x^2, x and constant : 1 -4 4
+// Roots are real and equal. They are : 
+// Root1 = 2.000000
+// Root2 = 2.000000

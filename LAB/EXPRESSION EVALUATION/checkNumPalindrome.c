@@ -3,44 +3,42 @@
 #include<stdio.h>
 #include<math.h>
 void main () {
-  int number = 0, digit = 0, sum = 0;
-  printf("Enter any number\n ");
-  scanf("%d", &number);
-  while (number != 0) {
-  digit = number % 10;
-  sum = sum + digit;
-  number = number / 10;
+  int n = 0, d = 0, sum = 0;
+  printf("Enter a number : ");
+  scanf("%d", &n);
+  while (n != 0) {
+    d = n % 10;
+    sum = sum + d;
+    n = n / 10;
   }
-  printf ("Sum of individual digits of a given number is %d", sum);
+  printf ("Sum of individual digits of %d is %d", n, sum);
 }
-// Test given number is palindrome:
+
+// Enter a number : 156
+// Sum of individual digits of 156 is 12
+
+
+// Test given n is palindrome:
 #include <stdio.h>
 void main() {
-  int number, t, rev=0, rmndr;
-  printf("Please enter a number to check Palindrome : ");
-  scanf("%d",&number);
-  printf("\nEntered number: %d", number);
-  t = number;
-  while (number > 0) {
-    rmndr = number%10;
-    rev = rev*10 + rmndr;
-    number = number/10;
+  int n, t, rev=0, rem;
+  printf("Enter number to check palindrome : ");
+  scanf("%d",&n);
+  printf("Entered number is %d\n", n);
+  t = n;
+  while (n > 0) {
+    rem = n%10;
+    rev = rev*10 + rem;
+    n = n/10;
   }
-  printf("\nReversed number: %d", rev);
-  if(t == rev) {
-    printf("\nEntered number %d is a palindrome", t);
-  }
-  else {
-    printf("\nEntered number %d is not a palindrome", t);
-  }
+  printf("Reversed number is %d", rev);
+  if(t == rev) 
+    printf("\nPalindrome", t);
+  else 
+    printf("\nNot a palindrome", t);
 }
 
-// Enter any number
-//  156
-// Sum of individual digits of a given number is 12
-
-// Please enter a number to check Palindrome : 564
-
-// Entered number: 564
-// Reversed number: 465
-// Entered number 564 is not a palindrome
+// Enter number to check palindrome : 564
+// Entered number is 564
+// Reversed number is 465
+// Palindrome
