@@ -3,18 +3,16 @@
 #include<math.h>
 void main() {
   int p,t;
-  float r,si,amount,ci;
-  printf("Please enter principle,time and rate of interest");
+  float r,si,a,ci;
+  printf("Enter principle, time and rate of interest : ");
   scanf("%d %d %f",&p,&t,&r);
   si=p*t*r/100;
-  printf("\nSimple interest = %.3f",si);
-  amount=p*pow((1 +r/100),t);
-  ci=amount-p;
+  printf("Simple interest = %.3f",si);
+  a=p*pow((1 +r/100),t);
+  ci=a-p;
   printf("\nCompound interest = %.3f",ci);
 }
 
-// Please enter principle,time and rate of interest  
-// 500 12 1
-
+// Please enter principle,time and rate of interest : 500 12 1
 // Simple interest = 60.000
 // Compound interest = 63.413
