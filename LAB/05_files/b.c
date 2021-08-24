@@ -1,5 +1,4 @@
-// Write a C program to copy one file to another file & while doing so replace
-// all lower case character to their equivalent upper case character.
+// Write a C program to copy one file to another file & while doing so replace all lower case character to their equivalent upper case character.
 #include<stdio.h>
 #include<stdlib.h>
 #include<ctype.h>
