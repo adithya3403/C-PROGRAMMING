@@ -5,20 +5,23 @@ struct node {
     struct node* next_link;
 };
 void main() {
-    struct node ob1; // Node1 initialization
+    int o1, o2, o3l;
+    scanf("%d %d %d", &o1, &o2, &o3);
+    struct node ob1;
+    // Node1 initialization
     ob1.prev_link = NULL;
     ob1.next_link = NULL;
-    ob1.data = 10;
-    struct node ob2; // Node2
-    // Initialization
+    ob1.data = o1;
+    struct node ob2;
+    // Node2 initialization
     ob2.prev_link = NULL;
     ob2.next_link = NULL;
-    ob2.data = 20;
-    struct node ob3; // Node3
-    // Initialization
+    ob2.data = o2;
+    struct node ob3;
+    // Node3 initialization
     ob3.prev_link = NULL;
     ob3.next_link = NULL;
-    ob3.data = 30;
+    ob3.data = o3;
     // Forward links
     ob1.next_link = &ob2;
     ob2.next_link = &ob3;
@@ -38,3 +41,7 @@ void main() {
     printf("%d\t", ob3.prev_link->data);
     printf("%d", ob3.data);
 }
+
+// 10      20      30
+// 10      20      30
+// 10      20      30
