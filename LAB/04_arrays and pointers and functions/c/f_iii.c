@@ -11,7 +11,7 @@ void main() {
     }
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
-            b[j][i]=a[i][j];
+            b[j][i] = a[i][j];
         }
     }
     printf("Transpose of matrix is :\n");
@@ -24,8 +24,8 @@ void main() {
 }
 
 // Enter number of rows and columns in matrix : 2 2
-// Enter entries of matrix : 1 2 3 
+// Enter entries of matrix : 1 2 3
 // 4
 // Transpose of matrix is :
-// 1 3 
+// 1 3
 // 2 4

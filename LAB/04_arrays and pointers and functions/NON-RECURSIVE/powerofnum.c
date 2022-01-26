@@ -1,8 +1,8 @@
 #include <stdio.h>
 int power(int b, int e) {
-    int r=1;
-    for(e; e > 0; e--)
-        r*=b;
+    int r = 1;
+    for (e; e > 0; e--)
+        r *= b;
     return r;
 }
 void main() {

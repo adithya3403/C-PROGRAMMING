@@ -1,10 +1,9 @@
 #include <stdio.h>
 int hcf(int a, int b) {
-    if (b!=0) {
-        return hcf(b, a%b);
-    }
-    else {
-        return a;   
+    if (b != 0) {
+        return hcf(b, a % b);
+    } else {
+        return a;
     }
 }
 int main() {
@@ -13,8 +12,8 @@ int main() {
     scanf("%d", &a);
     printf("Enter second number : ");
     scanf("%d", &b);
-    lcm=(a*b)/hcf(a, b);
-    printf("HCF = %d & LCM = %d\n",hcf(a, b), lcm);
+    lcm = (a * b) / hcf(a, b);
+    printf("HCF = %d & LCM = %d\n", hcf(a, b), lcm);
     return 0;
 }
 

@@ -14,12 +14,12 @@ void main() {
     }
     c = fgetc(fptr);
     while (c != EOF) {
-        printf ("%c", c);
+        printf("%c", c);
         c = fgetc(fptr);
     }
     fclose(fptr);
 }
 
-// Enter the filename to open 
+// Enter the filename to open
 // sample.txt
 // h

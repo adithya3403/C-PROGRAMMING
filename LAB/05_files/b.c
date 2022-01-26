@@ -1,7 +1,7 @@
 // Write a C program to copy one file to another file & while doing so replace all lower case character to their equivalent upper case character.
-#include<stdio.h>
-#include<stdlib.h>
-#include<ctype.h>
+#include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
 int main() {
     FILE *p1, *p2;
     char ch;
@@ -16,9 +16,9 @@ int main() {
         fclose(p1);
         exit(1);
     }
-    while((ch=fgetc(p1))!=EOF) {
+    while ((ch = fgetc(p1)) != EOF) {
         ch = toupper(ch);
-        fputc(ch,p2);
+        fputc(ch, p2);
     }
     printf("\nFile successfully copied..");
 }

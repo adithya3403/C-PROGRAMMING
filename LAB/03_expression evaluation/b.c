@@ -7,28 +7,28 @@ void main() {
     scanf("%c", &ch);
     printf("Enter the values of a and b\n");
     scanf("%d%d", &a, &b);
-    switch(ch) {
-        case '+': 
+    switch (ch) {
+        case '+':
             c = a + b;
             printf("Result is %d", c);
             break;
-        case '-': 
+        case '-':
             c = a - b;
             printf("Result is %d", c);
             break;
-        case '*': 
+        case '*':
             c = a * b;
             printf("Result is %d", c);
             break;
-        case '/': 
+        case '/':
             c = a / b;
             printf("Result is %d", c);
             break;
-        case '%': 
+        case '%':
             c = a % b;
             printf("Result is %d", c);
             break;
-        default: 
+        default:
             printf("An error occured!");
             break;
     }

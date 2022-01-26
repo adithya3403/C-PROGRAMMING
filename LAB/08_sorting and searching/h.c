@@ -1,21 +1,18 @@
 // Write a C program that sorts the given array of integers using insertion sort in ascending order .
-# include <stdio.h>
-void main()
-{
+#include <stdio.h>
+void main() {
     int n, array[1000], c, d, t;
     printf("Enter number of elements : ");
     scanf("%d", &n);
     printf("Enter %d integers : ", n);
     for (c = 0; c < n; c++)
         scanf("%d", &array[c]);
-    for (c = 1 ; c <= n - 1; c++)
-    {
+    for (c = 1; c <= n - 1; c++) {
         d = c;
-        while ( d > 0 && array[d-1] > array[d])
-        {
+        while (d > 0 && array[d - 1] > array[d]) {
             t = array[d];
-            array[d] = array[d-1];
-            array[d-1] = t;
+            array[d] = array[d - 1];
+            array[d - 1] = t;
             d--;
         }
     }

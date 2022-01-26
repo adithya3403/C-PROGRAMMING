@@ -5,8 +5,7 @@ void main() {
     printf("Enter number of terms : ");
     scanf("%d", &n);
     printf("Fibonacci Series is : ");
-    for (int i = 1; i <= n; ++i)
-    {
+    for (int i = 1; i <= n; ++i) {
         printf("%d, ", n1);
         nt = n1 + n2;
         n1 = n2;
@@ -15,4 +14,4 @@ void main() {
 }
 
 // Enter number of terms : 10
-// Fibonacci Series is : 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 
+// Fibonacci Series is : 0, 1, 1, 2, 3, 5, 8, 13, 21, 34,

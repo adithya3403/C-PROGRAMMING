@@ -1,9 +1,8 @@
 // Write a functions to compute mean, variance, Standard Deviation, sorting of n elements in single dimension array.
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 #define MAXSIZE 10
-void main()
-{
+void main() {
     float x[MAXSIZE];
     int n;
     float average, variance, std_deviation, sum = 0, sum1 = 0;
@@ -27,9 +26,9 @@ void main()
     printf("Standard deviation = %.2f\n", std_deviation);
 }
 
-// Enter the value of N 
+// Enter the value of N
 // 5
-// Enter 5 real numbers 
+// Enter 5 real numbers
 // 1 2 3 5 8
 // Average of all elements = 3.80
 // variance of all elements = 6.16

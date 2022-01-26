@@ -1,6 +1,6 @@
 // Write a ‘C’ Program to compute the sum of all elements stored in an array using pointers
-#include<stdio.h>
-#include<conio.h>
+#include <conio.h>
+#include <stdio.h>
 void main() {
     int numArray[10];
     int i, sum = 0;
@@ -9,7 +9,7 @@ void main() {
     for (i = 0; i < 10; i++) {
         scanf("%d", &numArray[i]);
     }
-    ptr = numArray; 
+    ptr = numArray;
     for (i = 0; i < 10; i++) {
         sum = sum + *ptr;
         ptr++;

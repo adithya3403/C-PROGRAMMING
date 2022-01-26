@@ -1,10 +1,10 @@
 // Write a program that shows the binary equivalent of a given positive number between 0 to 255.
 #include <stdio.h>
 int bineq(int num) {
-    if (num == 0) 
-      return 0;
-    else 
-      return (num % 2) + 10 * bineq(num / 2);
+    if (num == 0)
+        return 0;
+    else
+        return (num % 2) + 10 * bineq(num / 2);
 }
 void main() {
     int num, bin;
