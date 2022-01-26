@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-void main() 
-{
+void main() {
     char str1[] = "abcd", str2[] = "abCd", str3[] = "abcd";
     int result;
     result = strcmp(str1, str2);
