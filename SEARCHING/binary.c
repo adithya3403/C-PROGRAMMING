@@ -5,15 +5,14 @@ int b(int arr[], int l, int r, int x) {
         int m = (r + l) / 2;
         if (arr[m] == x) {
             return m;
-        }
-        else if (arr[m] > x) {
+        } else if (arr[m] > x) {
             return b(arr, l, m - 1, x);
         }
         return b(arr, m + 1, r, x);
     }
     return -1;
 }
-void main() { 
+void main() {
     int n;
     printf("Enter number of elements : ");
     scanf("%d", &n);

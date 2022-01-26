@@ -8,9 +8,9 @@ void swap(int *x, int *y) {
 }
 void selectionSort(int arr[], int n) {
     int i, j, min;
-    for (int i = 0; i < n-1; i++) {
+    for (int i = 0; i < n - 1; i++) {
         min = i;
-        for (int j = i+1; j < n; j++) {
+        for (int j = i + 1; j < n; j++) {
             if (arr[j] < arr[min]) {
                 min = j;
             }
@@ -19,7 +19,7 @@ void selectionSort(int arr[], int n) {
     }
 }
 void printArray(int arr[], int size) {
-    for (int i=0; i < size; i++) {
+    for (int i = 0; i < size; i++) {
         printf("%d ", arr[i]);
     }
     printf("\n");

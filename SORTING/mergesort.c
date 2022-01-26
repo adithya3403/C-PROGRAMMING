@@ -60,8 +60,8 @@ void main() {
     printf("Enter number of elements : ");
     scanf("%d", &n);
     int arr[n];
-    input(arr,n);
-    mergeSort(arr, 0, n-1);
+    input(arr, n);
+    mergeSort(arr, 0, n - 1);
     printf("Sorted array is : ");
     printArray(arr, n);
 }
