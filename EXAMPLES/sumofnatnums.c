@@ -1,17 +1,12 @@
 #include <stdio.h>
-int sum(int n) 
-{
-    if (n==0) 
-    {
+int sum(int n) {
+    if (n == 0) {
         return 0;
-    } 
-    else 
-    {
-        return n+sum(n-1);
+    } else {
+        return n + sum(n - 1);
     }
 }
-void main() 
-{
+void main() {
     int n;
     printf("Enter a positive integer:\n");
     scanf("%d", &n);
