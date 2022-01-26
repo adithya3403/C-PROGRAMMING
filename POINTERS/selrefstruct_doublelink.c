@@ -7,17 +7,17 @@ struct node {
 void main() {
     int o1, o2, o3l;
     scanf("%d %d %d", &o1, &o2, &o3);
-    struct node ob1; 
+    struct node ob1;
     // Node1 initialization
     ob1.prev_link = NULL;
     ob1.next_link = NULL;
     ob1.data = o1;
-    struct node ob2; 
+    struct node ob2;
     // Node2 initialization
     ob2.prev_link = NULL;
     ob2.next_link = NULL;
     ob2.data = o2;
-    struct node ob3; 
+    struct node ob3;
     // Node3 initialization
     ob3.prev_link = NULL;
     ob3.next_link = NULL;
