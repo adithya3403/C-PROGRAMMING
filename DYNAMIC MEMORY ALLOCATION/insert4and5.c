@@ -49,21 +49,21 @@ Final array:
 #include <stdlib.h>
 void main() {
     int *p;
-    p = (int*)malloc(4*sizeof(int));
+    p = (int *)malloc(4 * sizeof(int));
     printf("Initial size of the array is 4\n");
     for (int i = 0; i < 4; i++) {
-        printf("\nEnter element at index %d: ",i);
-        scanf("%d", &*(p+i));
-    } 
+        printf("\nEnter element at index %d: ", i);
+        scanf("%d", &*(p + i));
+    }
     printf("\n\nIncreasing the size of the array by 5 elements ...\n");
     printf("\nEnter 5 more integers\n");
-    p = (int*)realloc(p, 9);
+    p = (int *)realloc(p, 9);
     for (int i = 4; i < 9; i++) {
         printf("\nEnter element at index %d:", i);
-        scanf("%d", &*(p+i));
-    } 
+        scanf("%d", &*(p + i));
+    }
     printf("Final array:\n\n");
     for (int i = 0; i < 9; i++) {
-        printf("%d\n", *(p+i));
-	}
+        printf("%d\n", *(p + i));
+    }
 }

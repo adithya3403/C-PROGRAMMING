@@ -6,10 +6,10 @@ output=Enter the number whose factorial you want to calculate?
 factorial of a number 5 is 120*/
 #include <stdio.h>
 int f(int n) {
-    if (n==0 || n==1) {
+    if (n == 0 || n == 1) {
         return 1;
     } else {
-        return n*f(n-1);
+        return n * f(n - 1);
     }
 }
 void main() {

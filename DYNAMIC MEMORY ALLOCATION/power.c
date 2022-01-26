@@ -10,20 +10,20 @@ Enter value of power:
 
 #include <stdio.h>
 int pow(int b, int n) {
-    if (n==0) {
+    if (n == 0) {
         return 1;
     } else {
-        return (b*pow(b, n-1));
+        return (b * pow(b, n - 1));
     }
 }
 void main() {
     int b;
     printf("Enter value of base:\n");
     scanf("%d", &b);
-    
+
     int p;
     printf("Enter value of power:\n");
     scanf("%d", &p);
-    
+
     printf("%d to the power of %d is %d", b, p, pow(b, p));
 }

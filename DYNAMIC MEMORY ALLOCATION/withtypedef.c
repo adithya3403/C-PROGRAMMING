@@ -7,19 +7,19 @@ Third value: a  */
 
 #include <stdio.h>
 #include <stdlib.h>
-typedef struct pps{
+typedef struct pps {
     int num;
     float n;
     char ch;
 } pps;
 void main() {
     struct pps *ptr;
-    ptr=(struct pps*)malloc(3*sizeof(struct pps));
-    
-    ptr->num=10;
-    ptr->n=3.140000;
-    ptr->ch='a';
-    
+    ptr = (struct pps *)malloc(3 * sizeof(struct pps));
+
+    ptr->num = 10;
+    ptr->n = 3.140000;
+    ptr->ch = 'a';
+
     printf("First value: %d\n", ptr->num);
     printf("Second value: %f\n", ptr->n);
     printf("Third value: %c", ptr->ch);
