@@ -1,53 +1,42 @@
-#include<stdio.h>
-int main()
-{
-	int i,j,k;               
-	int arr[3][3][3];        
-	printf("enter the elements: \n");
-	for(i=0;i<2;i++)
-	{
-		for(j=0;j<3;j++)
-		{
-			for(k=0;k<3;k++)
-			{
-				printf("element at [%d][%d][%d]: ",i,j,k);
-				scanf("%d",&arr[i][j][k]);
-			}
-		}
-	}
-	printf("\nprinting 3D array\n");
-	for(i=0;i<2;i++)                       
-	{   
-		for(j=0;j<3;j++)
-		{
-			for(k=0;k<3;k++)
-			{
-				printf("%d ",arr[i][j][k]);	
-			}
-			printf("\n");
-		}
-		printf("\n");
-	}
-	printf("\ncopying values in new 2D array: \n");
-	printf("\nprinting elements in first 2D array: \n");
-    for ( j = 0; j < 3; j++)
-    {
-        for ( k = 0; k < 3; k++)
-        {
+#include <stdio.h>
+int main() {
+    int i, j, k;
+    int arr[3][3][3];
+    printf("enter the elements: \n");
+    for (i = 0; i < 2; i++) {
+        for (j = 0; j < 3; j++) {
+            for (k = 0; k < 3; k++) {
+                printf("element at [%d][%d][%d]: ", i, j, k);
+                scanf("%d", &arr[i][j][k]);
+            }
+        }
+    }
+    printf("\nprinting 3D array\n");
+    for (i = 0; i < 2; i++) {
+        for (j = 0; j < 3; j++) {
+            for (k = 0; k < 3; k++) {
+                printf("%d ", arr[i][j][k]);
+            }
+            printf("\n");
+        }
+        printf("\n");
+    }
+    printf("\ncopying values in new 2D array: \n");
+    printf("\nprinting elements in first 2D array: \n");
+    for (j = 0; j < 3; j++) {
+        for (k = 0; k < 3; k++) {
             printf("%d ", arr[0][j][k]);
         }
         printf("\n");
     }
-	printf("\nprinting elements in second 2D array: ");
-    for ( j = 0; j < 3; j++)
-    {
-        for ( k = 0; k < 3; k++)
-        {
+    printf("\nprinting elements in second 2D array: ");
+    for (j = 0; j < 3; j++) {
+        for (k = 0; k < 3; k++) {
             printf("%d ", arr[1][j][k]);
         }
         printf("\n");
     }
-	return 0;				
+    return 0;
 }
 
 /*

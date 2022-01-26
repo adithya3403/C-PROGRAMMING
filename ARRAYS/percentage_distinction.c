@@ -11,29 +11,21 @@ Percentage = 56.40
 Second Class*/
 
 #include <stdio.h>
-void main()
-{
+void main() {
     int a, b, c, d, e;
     printf("Enter five subjects marks:");
     scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
     float p;
-    p=(a+b+c+d+e)/5.0;
+    p = (a + b + c + d + e) / 5.0;
     printf("Percentage = %0.2f\n", p);
-    
-    if (p>70)
-    {
+
+    if (p > 70) {
         printf("Distinction");
-    }
-    else if (p<=40)
-    {
+    } else if (p <= 40) {
         printf("Failed");
-    }
-    else if (p<60 && p>40)
-    {
+    } else if (p < 60 && p > 40) {
         printf("Second Class");
-    }
-    else if (p<=70 && p>40)
-    {
+    } else if (p <= 70 && p > 40) {
         printf("First Class");
     }
 }
